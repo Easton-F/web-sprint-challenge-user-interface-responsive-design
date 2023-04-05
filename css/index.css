@@ -121,8 +121,12 @@ a:visited {
 
 .icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     margin:2% 0;
+}
+
+.icons-img {
+    margin-right:3% ;
 }
 
 /* spacers */
