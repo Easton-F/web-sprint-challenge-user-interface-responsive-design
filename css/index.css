@@ -268,6 +268,10 @@ footer button {
     font-size: 3rem;
 }
 
+footer nav {
+    margin-top:3% ;
+}
+
 .nav-item {
     margin-right:10% ;
 }
@@ -282,11 +286,30 @@ footer p {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    .header-info {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
     
+    }
+    
+    .header-info h1 {
+        font-size:5.5rem;
+        text-align: center;
+    }
+
+    .links {
+        flex-direction: column;
+        font-size: 2rem;
+        margin-right:3%;
+        align-items: center;
+    }
 
     /* gallery section */
     .gallery {
         height: auto;
+        background-size: cover;
     }
     
     /* about us section */
@@ -328,9 +351,40 @@ footer p {
     }
 
     /* footer section */
-    footer {
+    .footer-info {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    legend {
+        font-size: 3rem;
+        
+    }
+
+    input {
+        margin-right:5% ;
+    }
+
+    footer button {
+        width: 97%;
+    }
+
+    .footer-nav {
+        width:100% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p {
+        text-align: center;
+        font-size:1.5rem ;
+        margin:0 16% ;
+    }
+
+
 }
