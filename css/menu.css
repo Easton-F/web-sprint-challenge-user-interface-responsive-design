@@ -87,13 +87,49 @@ p, a {
 }
 
 /* header section */
-header {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../img/menu-header.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    header {
+        background-image: url('../img/menu-header.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .header-info {
+        background-color: rgba(0, 0, 0, 0.801);
+        width:100% ;
+        height:25%;  
+    }
+    
+    header h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    a:link {
+        color: white;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content:center;
+        margin:2% 0;
+    }
+    
+    .icons-img {
+        margin-right:3% ;
 }
 
 /* spacer */
@@ -114,18 +150,68 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.menu-container {
+    background-color: rgba(0, 4, 17, 0.781);
+    color: white;
+}
+
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+    color: white;
+}
+
+.footer-info {
+    display: flex;
+
+}
+
+.footer-info div {
+    flex: 1;
+}
+
+.signup {
+    margin-left:10% ;
+    margin-bottom:5% ;
+    font-size:3rem ;
+}
+
+legend {
+    margin-left:3% ;
+    font-size:5rem ;
+}
+
+input {
+    font-size:3rem ;
+}
+
+footer button {
+    font-size: 3rem;
+}
+
+footer nav {
+    margin-top:2%;
+   
+}
+
+.nav-item {
+    margin-right:10%;
+    
+}
+
+footer p {
+    display: flex;
+    justify-content: flex-end;
+    font-size:2rem ;
+    margin-right: 4.7%;
 }
 
 /* mobile media query */
